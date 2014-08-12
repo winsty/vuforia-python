@@ -255,5 +255,6 @@ class Vuforia(object):
                                 headers=headers)
 
     def close(self):
+        """Nothing to do."""
         pass
 
