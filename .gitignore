@@ -1,12 +1,15 @@
+# python object files
 *.py[cod]
 
-# Backup files
+# Backup files and swap files
 *~
+*.swap
 
-# C extensions
+# C object files
+*.o
+
+# Packages and libs
 *.so
-
-# Packages
 *.egg
 *.egg-info
 dist
@@ -24,6 +27,7 @@ __pycache__
 
 # Installer logs
 pip-log.txt
+*.log
 
 # Unit test / coverage reports
 .coverage
@@ -33,7 +37,6 @@ nosetests.xml
 # Translations
 *.mo
 
-# Mr Developer
-.mr.developer.cfg
+# Project config files
 .project
 .pydevproject
